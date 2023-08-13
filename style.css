@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.main_container {
+    width: 100%;
+    background-image: url(./backgroundimg/avengers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    overflow: hidden;
+}
+
+.description {
+    width: 65%;
+    text-align: justify;
+}
+
+.main-heading {
+    color: rgb(231, 71, 71);
+}
+
+.main-heading h1 {
+    font-size: 5rem;
+}
+
+.main-heading h3 {
+    font-size: 2rem;
+}
+
+.slider {
+    height: 550px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    overflow-x: auto;
+}
+
+.slider::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.slide-track {
+    display: flex;
+    width: calc(250px*28);
+    height: 480px;
+}
+
+
+.slide {
+    height: 480px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.slide img {
+    object-fit: contain;
+    max-width: 61%;
+    max-height: 100%;
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+    transition: 2s;
+}
+
+.size-set img {
+    max-width: 51%;
+}
+
+.slide img:hover {
+    max-width: 66% !important;
+    transition: 2s;
+}
+
+.size-set img:hover {
+    max-width: 55% !important;
+}
+
+.clkbtn {
+    background-color: transparent;
+    border: none;
+}
+
+.container {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-image: url(./backgroundimg/cap.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: sticky;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+}
+
+.open-popup {
+    visibility: visible;
+}
+
+.popup img {
+    width: 80%;
+}
+
+.popup h2 {
+    font-size: 38px;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 4%;
+    height: 8%;
+    line-height: 5%;
+    outline: none;
+    border-radius: 50%;
+}
+
+.left-div {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.left-div img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.right-div {
+    color: black;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 7%;
+}
+
+.okbtn {
+    margin-top: 37%;
+    position: absolute;
+    background-color: transparent;
+}

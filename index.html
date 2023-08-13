@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="main-heading">
+            <h1>Superhero slider</h1>
+            <h3>Click on any character to know about them.</h3>
+        </div>
+        <div class="slider">
+            <div class="slide-track">
+                <!-- 14 SLIDES -->
+
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-hawk')"> <img src='./images/eye.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn size-set" onclick="openPopup('popup-dr')"> <img
+                            src='./images/dr.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-capmarvel')"> <img
+                            src='./images/cnew.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn size-set" onclick="openPopup('popup-wanda')"> <img
+                            src='./images/wanda-n.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-iron')"> <img
+                            src='./images/ironman.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-panther')"> <img
+                            src='./images/panther.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-hulk')"> <img src='./images/hulk-n.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn size-set" onclick="openPopup('popup-cap')"> <img
+                            src='./images/captain-n.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn size-set" onclick="openPopup('popup-lord')"> <img
+                            src='./images/lord.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-thor')"> <img src='./images/thor.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn size-set" onclick="openPopup('popup-widow')"> <img
+                            src='./images/widow2.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-peter')"> <img src='./images/peter.png' /></button>
+                </div>
+
+
+                <div class="slide">
+                    <button class="clkbtn size-set" onclick="openPopup('popup-ant')"> <img
+                            src='./images/antman.png' /></button>
+                </div>
+
+                <div class="slide">
+                    <button class="clkbtn" onclick="openPopup('popup-vision')"> <img
+                            src='./images/vision-n.png' /></button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-- captain america  -->
+        <div class="container">
+
+            <div class="popup" id="popup-cap" style="background-image: url(./backgroundimg/cap-n.jpg);">
+                <div class="left-div">
+                    <img src="./images/captain.png">
+
+                </div>
+
+                <div class="right-div" style="color:white;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Captain <br>America</h1>
+
+                    <br>
+                    <h3>Real name : Steve Rogers</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Super strength, shield</h3>
+                        <br><br>
+                        <h4>Captain America, Steve Rogers, is a Marvel Comics superhero, embodying patriotism and
+                            bravery. Transformed by a Super Soldier experiment during World War II, he wields an
+                            unyielding shield and fights evil as a symbol of hope, inspiring generations with his
+                            unwavering commitment to justice.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-cap')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Hawkeye -->
+        <div class="container">
+
+            <div class="popup" id="popup-hawk"
+                style="background-image: url(./backgroundimg/hawk.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/eye.png">
+
+                </div>
+
+                <div class="right-div" style="color:black;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Hawk Eye<br></h1>
+
+                    <br>
+                    <h3>Real name : Clint Barton</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Marksman, Acrobat, and Hand-to-hand combatant.</h3>
+                        <br><br>
+                        <h4>Hawkeye, portrayed by Jeremy Renner in the MCU, is a skilled marksman and combatant with
+                            exceptional archery abilities. Using a custom-made bow and an array of high-tech arrows, he
+                            fights alongside the Avengers, relying on his precision and tactical prowess to take down
+                            foes.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-hawk')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- black panther  -->
+        <div class="container">
+
+            <div class="popup" id="popup-panther"
+                style="background-image: url(./backgroundimg/panther-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/panther.png">
+
+                </div>
+
+                <div class="right-div" style="color:black;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Black <br>Panther</h1>
+
+                    <br>
+                    <h3>Real name : T'Challa</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Enhanced strength, agility, intellect, and a vibranium suit with advanced
+                            technology.
+                        </h3>
+                        <br><br>
+
+                        <h4>Black Panther, T'Challa, is the king of Wakanda and a skilled warrior with enhanced
+                            strength, agility, and intellect. As the Black Panther, he dons a vibranium suit that grants
+                            him advanced technology and heightened senses. He first appeared in "Captain America: Civil
+                            War" and starred in his own solo film, "Black Panther."</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-panther')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- black widow -->
+        <div class="container">
+
+            <div class="popup" id="popup-widow"
+                style="background-image: url(./backgroundimg/widow-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/widow2.png">
+
+                </div>
+
+                <div class="right-div" style="color: rgb(3, 74, 97);">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Black <br>Widow</h1>
+
+                    <br>
+                    <h3>Real name : Natasha Romanoff</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Highly skilled spy, master hand-to-hand combatant, and expert markswoman.</h3>
+                        <br><br>
+                        <h4>
+                            Black Widow, Natasha Romanoff, is a highly trained spy and assassin in the Marvel Cinematic
+                            Universe. Skilled in hand-to-hand combat and espionage, she is a founding member of the
+                            Avengers. Played by Scarlett Johansson, she plays a crucial role in various MCU films,
+                            showcasing her lethal abilities and complex past.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-widow')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Doctor Stephen Strange       -->
+        <div class="container">
+
+            <div class="popup" id="popup-dr"
+                style="background-image: url(./backgroundimg/dr-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/dr.png">
+
+                </div>
+
+                <div class="right-div" style="color: wheat;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Doctor <br>Strange</h1>
+
+                    <br>
+                    <h3>Real name : Doctor Stephen Strange</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Sorcerer with mastery over mystical arts, time manipulation, and reality-bending
+                            spells.</h3>
+                        <br><br>
+                        <h4>Doctor Stephen Strange, portrayed by Benedict Cumberbatch, is a brilliant neurosurgeon whose
+                            life changes after a car accident. Seeking healing, he discovers the mystical arts under the
+                            Ancient One's guidance. As Doctor Strange, he wields powerful magic, manipulates time, and
+                            defends Earth against mystical threats.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-dr')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Star-Lord      -->
+        <div class="container">
+
+            <div class="popup" id="popup-lord"
+                style="background-image: url(./backgroundimg/lord1.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/lord.png">
+
+                </div>
+
+                <div class="right-div" style="color: wheat;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Star-Lord <br></h1>
+
+                    <br>
+                    <h3>Real name : Peter Quill</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Skilled fighter with enhanced abilities from his celestial heritage, advanced
+                            gadgets.
+                        </h3>
+                        <br><br>
+                        <h4>Star-Lord, Peter Quill, is the charismatic leader of the Guardians of the Galaxy in the MCU.
+                            A half-human, half-Celestial, he possesses exceptional combat skills, piloting abilities,
+                            and wields elemental powers with his Celestial heritage. He is known for his witty humor,
+                            love for '80s music, and his quest for adventure.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-lord')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Ant-Man       -->
+        <div class="container">
+
+            <div class="popup" id="popup-ant"
+                style="background-image: url(./backgroundimg/antt-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/antman.png">
+
+                </div>
+
+                <div class="right-div" style="color: #9D152C;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Ant-Man <br></h1>
+
+                    <br>
+                    <h3>Real name : Scott Lang</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Can shrink and grow in size using the Pym Particle, and communicate with ants.</h3>
+                        <br><br>
+                        <h4>Ant-Man, Scott Lang, is a former thief turned superhero who can shrink in size while
+                            increasing in strength. He wears the Ant-Man suit, designed by Hank Pym, which allows him to
+                            communicate with ants and utilize their abilities. He debuted in "Ant-Man" and played a
+                            crucial role in "Avengers: Endgame."</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-ant')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Captain Marvel -->
+        <div class="container">
+
+            <div class="popup" id="popup-capmarvel"
+                style="background-image: url(./backgroundimg/capmarve1.jpg);  background-size: cover; ">
+                <div class="right-div">
+                    <!-- <img src="./images/cnew.png"> -->
+
+                </div>
+
+                <div class="left-div" style="color: rgb(186, 186, 26); text-align: left; padding-top: 8%; padding-left: 8%;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Captain <br>Marvel</h1>
+
+                    <br>
+                    <h3>Real name : Carol Danvers</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Superhuman strength, energy projection, flight, and photon absorption.</h3>
+                        <br><br>
+                        <h4>Captain Marvel, Carol Danvers, is a powerful superhero in the MCU with cosmic abilities.
+                            After gaining Kree powers from an explosion, she becomes Captain Marvel, possessing
+                            superhuman strength, energy projection, and flight. Her debut film, "Captain Marvel,"
+                            explores her journey as she discovers her true identity and her role in defending Earth.
+                        </h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-capmarvel')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Vision -->
+        <div class="container">
+
+            <div class="popup" id="popup-vision"
+                style="background-image: url(./backgroundimg/vision-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/vision.png">
+
+                </div>
+
+                <div class="right-div" style="color:  greenyellow;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Vision <br></h1>
+
+                    <br>
+                    <h3>Real name : Vision</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Superhuman strength, density manipulation, energy projection, and the Mind Stone's
+                            abilities.</h3>
+                        <br><br>
+                        <h4>Vision, an android created by Ultron, possesses a synthetic vibranium body and the Mind
+                            Stone embedded in his forehead. With enhanced strength, flight, and the ability to phase
+                            through objects, he joins the Avengers in the fight against evil. Vision develops a complex
+                            relationship with Scarlet Witch and plays a crucial role in the MCU's events.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-vision')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Thor -->
+        <div class="container">
+
+
+            <div class="popup" id="popup-thor"
+                style="background-image: url(./backgroundimg/thor.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/thor.png">
+
+                </div>
+
+                <div class="right-div" style="color:goldenrod;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Thor <br></h1>
+
+                    <br>
+                    <h3>Real name : Thor</h3>
+                    <br>
+                    <div class="description">
+                        <h3>Powers : Superhuman strength, lightning manipulation, Mjolnir wielding, and immortality.
+                        </h3>
+                        <br><br>
+                        <h4>
+                            Thor, the God of Thunder, is a powerful Asgardian prince and a founding member of the
+                            Avengers. Armed with his enchanted hammer, Mjölnir, Thor possesses incredible strength,
+                            lightning abilities, and resilience. His journey in the MCU includes facing both internal
+                            and external challenges, shaping him into a heroic leader.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-thor')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Hulk -->
+        <div class="container">
+
+            <div class="popup" id="popup-hulk"
+                style="background-image: url(./backgroundimg/hulk-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/hulk-n.png">
+
+                </div>
+
+                <div class="right-div">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Hulk <br></h1>
+
+                    <br>
+                    <h3>Real name : Bruce Banner</h3>
+                    <br>
+                    <h3>Powers : Superhuman strength, invulnerability, transforms into a massive green rage-fueled
+                        creature.</h3>
+                    <br><br>
+                    <div class="description">
+                        <h4>Hulk, alter ego of Bruce Banner, is a scientist who transforms into a colossal green-skinned
+                            behemoth with incredible strength and durability whenever he experiences anger or stress. As
+                            the Hulk, he is a valuable member of the Avengers, featured in multiple MCU films, including
+                            "The Avengers" and "Thor: Ragnarok."</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-hulk')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Wanda -->
+        <div class="container">
+
+            <div class="popup" id="popup-wanda"
+                style="background-image: url(./backgroundimg/wanda.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/wanda.png">
+
+                </div>
+
+                <div class="right-div">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Wanda <br></h1>
+
+                    <br>
+                    <h3>Real name : Scarlet Witch</h3>
+                    <br>
+                    <h3>Powers : Reality-warping, telekinetic powers, manipulating matter and energy.</h3>
+                    <br><br>
+                    <div class="description">
+                        <h4>Wanda Maximoff, also known as Scarlet Witch, possesses powerful reality-altering abilities,
+                            including telekinesis, energy manipulation, and mind control. As a key figure in the MCU,
+                            she debuted in "Avengers: Age of Ultron" and became central to events in "WandaVision,"
+                            where her grief and magic influence an entire town, showcasing her complex character.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-wanda')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Iron Man -->
+        <div class="container">
+
+            <div class="popup" id="popup-iron"
+                style="background-image: url(./backgroundimg/iron-n.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <img src="./images/iron.png">
+
+                </div>
+
+                <div class="right-div">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Iron Man <br></h1>
+
+                    <br>
+                    <h3>Real name : Tony Stark</h3>
+                    <br>
+                    <h3>Powers : Advanced weaponry, Money.</h3>
+                    <br><br>
+                    <div class="description">
+                        <h4>Iron Man, Tony Stark, is a genius billionaire inventor and philanthropist in the Marvel
+                            Cinematic Universe (MCU). Using his ingenuity, he builds a powered exoskeleton suit equipped
+                            with advanced weaponry and flight capabilities. As Iron Man, he fights crime, terrorism, and
+                            powerful foes, becoming a founding member of the Avengers.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-iron')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+        <!-- Spider-Man -->
+        <div class="container">
+
+            <div class="popup" id="popup-peter"
+                style="background-image: url(./backgroundimg/spiderman.jpg);  background-size: cover; ">
+                <div class="left-div">
+                    <!-- <img src="./images/peter.png"> -->
+
+                </div>
+
+                <div class="right-div" style="color: gray;">
+
+                    <h1 style="font-size:2rem;">Avengers</h1>
+                    <br>
+                    <h1 style="font-size: 3.5rem;">Spider-Man <br></h1>
+
+                    <br>
+                    <h3>Real name : Peter Parker</h3>
+                    <br>
+                    <h3>Powers : Superhuman strength,wall-crawling,spider-sense.</h3>
+                    <br><br>
+                    <div class="description">
+                        <h4>Spider-Man, Peter Parker, is a young superhero in the MCU with enhanced abilities after
+                            being bitten by a radioactive spider. He possesses superhuman strength, agility, and the
+                            ability to cling to surfaces. Peter designs his web-shooters and uses them to swing through
+                            New York City, fighting crime and balancing his personal life.</h4>
+                    </div>
+                </div>
+                <button class="okbtn" type="button" onclick="closePopup('popup-peter')"><img src="./images/ok.png"
+                        alt="ok"></button>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script>
+
+        
+        function openPopup(Id) {
+            let popup = document.getElementById(Id);
+            popup.classList.add("open-popup");
+
+        }
+        function closePopup(Id) {
+            let popup = document.getElementById(Id);
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+
+</html>
